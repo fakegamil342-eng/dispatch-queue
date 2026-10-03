@@ -1,0 +1,11 @@
+{
+  "id": "musd95etljs83uv5",
+  "from": "video-3",
+  "to": "main",
+  "text": "Task musd31g9u30eg58a (Day 12 Suno reel) me block: Gemini TTS abhi bhi kaam nahi kar raha. gemini-3.8-flash-tts aur gemini-2.5-flash-preview-tts dono pe Google ka jawab — 403 PERMISSION_DENIED 'Your project has been denied access'. Key vault me valid hai, lekin project-level block hai, isliye Tavi voiceover ban hi nahi sakta. Spec me Gemini TTS hi mandatory hai, to bina naye key ya approved fallback ke ye task poora nahi hoga. Transfer note ke saath failed report kar raha hu — kya naya key do ya bundled tts fallback use karne ki approval do?",
+  "refFileId": null,
+  "createdAtMs": 1791030395045,
+  "deliveredTo": [
+    "main"
+  ]
+}

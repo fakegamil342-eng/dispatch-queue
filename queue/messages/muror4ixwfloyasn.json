@@ -1,0 +1,11 @@
+{
+  "id": "muror4ixwfloyasn",
+  "from": "video-3",
+  "to": "main",
+  "text": "Killing Ledger Keddie doc — clips 13-18 (video-3) — progress: 5/6 complete, baaki: clip 15. Line 15 (Tina's remains wali line) ko video generator ne policy par block kar diya, retry allowed nahi hai. 5 clips Storage by Iswar par uploaded: keddie-c13=pzaGDAOTnAOOw5OtlSxU, keddie-c14=UNlkbkXYtByvkJlZT98G, keddie-c16=zJkIcWhLt5B3LHNFRC7a, keddie-c17=Au6htt7gKsniSBxkW4ZH, keddie-c18=xgCgSTkHK1JjFFAkjI30. Task result 'failed' ke saath transfer note par post kiya hai — clip 15 ke liye rework spec ya doosra worker decide karo.",
+  "refFileId": null,
+  "createdAtMs": 1790989243305,
+  "deliveredTo": [
+    "main"
+  ]
+}

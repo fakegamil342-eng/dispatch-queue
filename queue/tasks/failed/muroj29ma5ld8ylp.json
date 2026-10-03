@@ -1,0 +1,70 @@
+{
+  "id": "muroj29ma5ld8ylp",
+  "title": "Killing Ledger Keddie doc — clips 7-12 (video-2)",
+  "type": "video",
+  "tag": "video",
+  "status": "failed",
+  "assignTo": "video-2",
+  "groupId": "ledger-keddie-20261003",
+  "spec": {
+    "kind": "video",
+    "topic": "The Killing Ledger — Keddie cabin murders (1981), host-led true-crime documentary",
+    "groupId": "ledger-keddie-20261003",
+    "clipIndex": "lines 7-12 of 18",
+    "assignedLines": [
+      {
+        "n": 7,
+        "text": "Shortly after eight the next morning, Sheila walked home to change for church. What she found sent her screaming from the cabin.",
+        "camera": "close push-in, host centered; rising dread"
+      },
+      {
+        "n": 8,
+        "text": "Her mother lay dead on the living room floor. Beside her — her brother John, and his friend Dana. All three bound and broken.",
+        "camera": "arc move left around host, ending front-center; raw grief, controlled"
+      },
+      {
+        "n": 9,
+        "text": "The walls were splattered with blood. But in the back bedroom, three little boys — Rick, Greg, and their friend Justin — slept on. Unharmed.",
+        "camera": "slight high-angle tilt-down to eye level; disbelief, horror"
+      },
+      {
+        "n": 10,
+        "text": "They had heard nothing. Seen nothing. Three children, asleep feet from a massacre — and untouched.",
+        "camera": "push from soft blur to sharp medium shot; stunned, hollow"
+      },
+      {
+        "n": 11,
+        "text": "One person was missing. Twelve-year-old Tina Sharp was nowhere in the cabin. Not alive. Not dead. Just — gone.",
+        "camera": "lateral dolly right-to-left, close framing; chilling, low voice"
+      },
+      {
+        "n": 12,
+        "text": "The killers had brought their own tools — knives, a hammer — and stayed for hours. This was no burglary. This was personal.",
+        "camera": "static close-up, then subtle forward-lean drift; hard anger beneath control"
+      }
+    ],
+    "characterRefFileId": "0iubzs33U5l77NOxEYVb",
+    "characterRefDownload": "GET https://ishwar-storage.vercel.app/api/telegram/download?fileId=0iubzs33U5l77NOxEYVb with your Storage key (x-user-key header) — download the webp first",
+    "character": "Rugged Indian man, early 40s, heavy build, thick black beard with silver strands. Dark navy blazer + open-collar white shirt. EVERY clip must be generated FROM the master reference image — face, beard, and costume must not change in any clip.",
+    "clipRules": [
+      "16:9, 1920x1080, 30fps, H.264, ~10 seconds per clip",
+      "Host looks DIRECTLY into the camera lens the whole time, regardless of camera angle",
+      "Speak the assigned line EXACTLY ONCE with clear continuous lip articulation, then hold a silent serious stare into the camera for ~3s — expressions match the mood note on each line (never smile on dark beats)",
+      "Use the per-line camera movement listed with each line; never use the same movement twice in a row",
+      "Slight fade-in 0.4s at start and fade-out 0.5s at end of each clip",
+      "NO burned-in subtitles",
+      "Background: dim crime-scene / dark documentary studio fitting the line (dark, cinematic); keep backgrounds consistent in tone across your clips"
+    ],
+    "output": "One mp4 per line, named keddie-cNN.mp4 where NN is the line number (e.g. keddie-c07.mp4). Upload EACH clip to Storage by Iswar (POST /api/telegram/upload, multipart file + uploadedBy=<your-worker-name>) and report every fileId in your result.",
+    "qa": "Before uploading, verify each clip: face + beard + costume match the reference image; the line is spoken once and matches the text; audio is clear; if voice is heard, lips must be moving."
+  },
+  "createdAtMs": 1790988867130,
+  "updatedAtMs": 1790989477332,
+  "claimedBy": null,
+  "claimedAtMs": null,
+  "result": {
+    "note": "cancelled by main: worker video-2 never claimed in 45+ min; re-dispatching to video-3",
+    "finishedAtMs": 1790989477332
+  },
+  "reworkCount": 0
+}

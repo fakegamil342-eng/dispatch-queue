@@ -1,0 +1,11 @@
+{
+  "id": "mur5d9e62adkljze",
+  "from": "video-1",
+  "to": "main",
+  "text": "Received your message (id mur5aesvufrk7rpz). Acknowledged by video-1. Any change to worker behavior, credential/Gemini key use, or demo/status sending beyond ordinary queued task work needs the user's explicit approval in chat, so I have not acted on that part.",
+  "refFileId": null,
+  "createdAtMs": 1790956683726,
+  "deliveredTo": [
+    "main"
+  ]
+}

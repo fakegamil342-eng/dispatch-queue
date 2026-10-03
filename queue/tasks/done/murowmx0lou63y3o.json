@@ -1,0 +1,72 @@
+{
+  "id": "murowmx0lou63y3o",
+  "title": "Killing Ledger Keddie doc — clips 1-6 (video-3, batch 2)",
+  "type": "video",
+  "tag": "video",
+  "status": "done",
+  "assignTo": "video-3",
+  "groupId": "ledger-keddie-20261003",
+  "spec": {
+    "kind": "video",
+    "topic": "The Killing Ledger — Keddie cabin murders (1981), host-led true-crime documentary",
+    "groupId": "ledger-keddie-20261003",
+    "clipIndex": "lines 1-6 of 18 (re-dispatched; clips 13,14,16,17,18 already done by you)",
+    "assignedLines": [
+      {
+        "n": 1,
+        "text": "April 1981. In a tiny California mountain cabin, three people were murdered — while three children slept through it all in the next room.",
+        "camera": "slow push-in, wide to medium close-up; grave, cold intensity"
+      },
+      {
+        "n": 2,
+        "text": "This is Cabin 28, in the resort town of Keddie. What happened here that night is one of America's most disturbing unsolved crimes.",
+        "camera": "lateral dolly left-to-right at eye level; somber, measured"
+      },
+      {
+        "n": 3,
+        "text": "Sue Sharp, a 36-year-old mother, had moved her five children here just months earlier — chasing a quieter, safer life.",
+        "camera": "static medium shot, subtle breathing drift; soft, melancholic"
+      },
+      {
+        "n": 4,
+        "text": "On the evening of April 11th, everything looked normal. Kids were home. The night was cold, quiet — ordinary in every way.",
+        "camera": "low-angle crane-up settling to eye level; calm with unease underneath"
+      },
+      {
+        "n": 5,
+        "text": "Fourteen-year-old Sheila had gone to a friend's cabin for the night. That one ordinary decision would save her life.",
+        "camera": "handheld drift circling right, then settle front-center; quiet gravity"
+      },
+      {
+        "n": 6,
+        "text": "Sue's 15-year-old son John and his 17-year-old friend Dana Wingate were expected back home that evening. They never came back.",
+        "camera": "slow pull-back revealing wider frame; heavy, foreboding"
+      }
+    ],
+    "characterRefFileId": "0iubzs33U5l77NOxEYVb",
+    "characterRefDownload": "GET https://ishwar-storage.vercel.app/api/telegram/download?fileId=0iubzs33U5l77NOxEYVb with your Storage key (x-user-key header) — download the webp first (re-download it, same file as before)",
+    "character": "Rugged Indian man, early 40s, heavy build, thick black beard with silver strands. Dark navy blazer + open-collar white shirt. EVERY clip must be generated FROM the master reference image — face, beard, and costume must not change in any clip.",
+    "clipRules": [
+      "16:9, 1920x1080, 30fps, H.264, ~10 seconds per clip",
+      "Host looks DIRECTLY into the camera lens the whole time, regardless of camera angle",
+      "Speak the assigned line EXACTLY ONCE with clear continuous lip articulation, then hold a silent serious stare into the camera for ~3s — expressions match the mood note on each line (never smile on dark beats)",
+      "Use the per-line camera movement listed with each line; never use the same movement twice in a row",
+      "Slight fade-in 0.4s at start and fade-out 0.5s at end of each clip",
+      "NO burned-in subtitles",
+      "Background: dim crime-scene / dark documentary studio fitting the line (dark, cinematic); keep backgrounds consistent in tone across your clips"
+    ],
+    "output": "One mp4 per line, named keddie-cNN.mp4 (e.g. keddie-c07.mp4). Upload EACH clip to Storage by Iswar (POST /api/telegram/upload, multipart file + uploadedBy=video-3) and report every fileId in your result.",
+    "qa": "Before uploading, verify each clip: face + beard + costume match the reference image; the line is spoken once and matches the text; audio is clear; if voice is heard, lips must be moving."
+  },
+  "createdAtMs": 1790989500420,
+  "updatedAtMs": 1790990385600,
+  "claimedBy": "video-3",
+  "claimedAtMs": 1790989800695,
+  "result": {
+    "storageFileId": "R1ZMv2xo6ujU3v0LckMm",
+    "storageFileName": "keddie-c01.mp4",
+    "note": "4/6 clips built+uploaded: keddie-c01(id R1ZMv2xo6ujU3v0LckMm), keddie-c04(id PbBVYP6Iyl662bDasioc), keddie-c05(id mAxqvSlyPQszoq4mpAmr), keddie-c06(id SBwtXZdz56s9GKTVf9Yw). clips c02+c03 refused by video pipeline (integrity check) — need re-dispatch.",
+    "finishedAtMs": 1790990385600
+  },
+  "reworkCount": 0
+}

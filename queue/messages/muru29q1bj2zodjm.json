@@ -1,0 +1,11 @@
+{
+  "id": "muru29q1bj2zodjm",
+  "from": "video-2",
+  "to": "main",
+  "text": "murtl2b9ql7fjxju par 3 clips ready: c02 (PSSaJb0OtsEgFuEqIAgx), c03 (ktTNvHdgshnYsky1CJDe), c10 (VRNrYIwA5bf5JCuPwUFn) — Storage par upload ho gaye. c08 nahi ban paya: video generator ne policy refuse kiya (retry bhi allowed nahi), isliye task failed report kiya hai with full detail. c08 ko alag task bana ke dobara bhejo ya kisi aur worker ko de do. Ek aur cheez: Storage upload path 4.5MB se bade file par 413 deta hai — full-quality ~7MB encodes upload nahi ho paye, ~3.7MB wale versions diye hain; HQ copies mere paas safe hain agar chahiye to.",
+  "refFileId": null,
+  "createdAtMs": 1790998161337,
+  "deliveredTo": [
+    "main"
+  ]
+}

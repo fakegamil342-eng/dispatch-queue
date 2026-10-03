@@ -1,0 +1,72 @@
+{
+  "id": "muroj3k3okjoc7cv",
+  "title": "Killing Ledger Keddie doc — clips 13-18 (video-3)",
+  "type": "video",
+  "tag": "video",
+  "status": "failed",
+  "assignTo": "video-3",
+  "groupId": "ledger-keddie-20261003",
+  "spec": {
+    "kind": "video",
+    "topic": "The Killing Ledger — Keddie cabin murders (1981), host-led true-crime documentary",
+    "groupId": "ledger-keddie-20261003",
+    "clipIndex": "lines 13-18 of 18",
+    "assignedLines": [
+      {
+        "n": 13,
+        "text": "Within days, suspicion fell on the neighbor in Cabin 26: Martin Smartt — and his friend, John Boubede.",
+        "camera": "slow zoom-out with lateral drift combined; sharp, investigative"
+      },
+      {
+        "n": 14,
+        "text": "One month later, Smartt told his own therapist he had killed Sue and Tina. The therapist reported it. The state dismissed it as hearsay.",
+        "camera": "crane-down from high angle to medium; incredulous, tense"
+      },
+      {
+        "n": 15,
+        "text": "No arrest. No charges. And Tina? She stayed missing for three long years — until her remains were found sixty-two miles away.",
+        "camera": "handheld sway, medium close-up; mournful, slow delivery"
+      },
+      {
+        "n": 16,
+        "text": "In 2016, a hammer was pulled from the bottom of a nearby pond — matching the one Smartt said went missing that very morning.",
+        "camera": "push-in, medium to tight close-up; focused, piercing"
+      },
+      {
+        "n": 17,
+        "text": "New DNA on the crime-scene tape was said to match a living person known to investigators. And still — nobody has ever been charged.",
+        "camera": "orbit right, finishing three-quarter front view; frustrated determination"
+      },
+      {
+        "n": 18,
+        "text": "Cabin 28 was torn down in 2004. But the questions refuse to die. And on this one — the ledger stays open.",
+        "camera": "slow pull-back to wide, ending on a static hold; solemn finality"
+      }
+    ],
+    "characterRefFileId": "0iubzs33U5l77NOxEYVb",
+    "characterRefDownload": "GET https://ishwar-storage.vercel.app/api/telegram/download?fileId=0iubzs33U5l77NOxEYVb with your Storage key (x-user-key header) — download the webp first",
+    "character": "Rugged Indian man, early 40s, heavy build, thick black beard with silver strands. Dark navy blazer + open-collar white shirt. EVERY clip must be generated FROM the master reference image — face, beard, and costume must not change in any clip.",
+    "clipRules": [
+      "16:9, 1920x1080, 30fps, H.264, ~10 seconds per clip",
+      "Host looks DIRECTLY into the camera lens the whole time, regardless of camera angle",
+      "Speak the assigned line EXACTLY ONCE with clear continuous lip articulation, then hold a silent serious stare into the camera for ~3s — expressions match the mood note on each line (never smile on dark beats)",
+      "Use the per-line camera movement listed with each line; never use the same movement twice in a row",
+      "Slight fade-in 0.4s at start and fade-out 0.5s at end of each clip",
+      "NO burned-in subtitles",
+      "Background: dim crime-scene / dark documentary studio fitting the line (dark, cinematic); keep backgrounds consistent in tone across your clips"
+    ],
+    "output": "One mp4 per line, named keddie-cNN.mp4 where NN is the line number (e.g. keddie-c07.mp4). Upload EACH clip to Storage by Iswar (POST /api/telegram/upload, multipart file + uploadedBy=<your-worker-name>) and report every fileId in your result.",
+    "qa": "Before uploading, verify each clip: face + beard + costume match the reference image; the line is spoken once and matches the text; audio is clear; if voice is heard, lips must be moving."
+  },
+  "createdAtMs": 1790988868803,
+  "updatedAtMs": 1790989241222,
+  "claimedBy": "video-3",
+  "claimedAtMs": 1790988903016,
+  "result": {
+    "storageFileId": null,
+    "storageFileName": null,
+    "note": "transfer: 5/6 clips built and uploaded (keddie-c13=pzaGDAOTnAOOw5OtlSxU, c14=UNlkbkXYtByvkJlZT98G, c16=zJkIcWhLt5B3LHNFRC7a, c17=Au6htt7gKsniSBxkW4ZH, c18=xgCgSTkHK1JjFFAkjI30); keddie-c15 blocked by video-generator policy and cannot be retried",
+    "finishedAtMs": 1790989241222
+  },
+  "reworkCount": 0
+}

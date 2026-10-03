@@ -1,0 +1,33 @@
+{
+  "id": "mur61zd9ymp3625m",
+  "title": "Demo Instagram Post (video-3)",
+  "type": "image",
+  "tag": "demo",
+  "status": "done",
+  "assignTo": "video-3",
+  "groupId": null,
+  "spec": {
+    "kind": "demo",
+    "task": "Create a demo Instagram post (single image, 1080x1350)",
+    "instructions": [
+      "Create ONE demo Instagram post image (1080x1350, 4:5 ratio)",
+      "Theme: AI tools (any simple design with text)",
+      "Include some Assamese or English text about AI",
+      "Upload to Storage by Iswar",
+      "Report done with fileId and fileName"
+    ],
+    "output": "Single PNG/JPG image. Upload to Storage. Report done.",
+    "note": "This is a DEMO to test the new GitHub queue backend. Keep it simple."
+  },
+  "createdAtMs": 1790957837133,
+  "updatedAtMs": 1790958075435,
+  "claimedBy": "video-3",
+  "claimedAtMs": 1790958007592,
+  "result": {
+    "storageFileId": "jyoT47vKkPGBwmyDKwsj",
+    "storageFileName": "demo-insta-post-1080x1350.png",
+    "note": "Demo Instagram post (1080x1350, AI tools theme, Assamese text) generated and uploaded to Storage",
+    "finishedAtMs": 1790958075435
+  },
+  "reworkCount": 0
+}

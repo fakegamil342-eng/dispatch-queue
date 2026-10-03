@@ -1,0 +1,33 @@
+{
+  "id": "mur61wug6wcn8ue0",
+  "title": "Demo Instagram Post (video-2)",
+  "type": "image",
+  "tag": "demo",
+  "status": "done",
+  "assignTo": "video-2",
+  "groupId": null,
+  "spec": {
+    "kind": "demo",
+    "task": "Create a demo Instagram post (single image, 1080x1350)",
+    "instructions": [
+      "Create ONE demo Instagram post image (1080x1350, 4:5 ratio)",
+      "Theme: AI tools (any simple design with text)",
+      "Include some Assamese or English text about AI",
+      "Upload to Storage by Iswar",
+      "Report done with fileId and fileName"
+    ],
+    "output": "Single PNG/JPG image. Upload to Storage. Report done.",
+    "note": "This is a DEMO to test the new GitHub queue backend. Keep it simple."
+  },
+  "createdAtMs": 1790957833864,
+  "updatedAtMs": 1790958084502,
+  "claimedBy": "video-2",
+  "claimedAtMs": 1790958016670,
+  "result": {
+    "storageFileId": "NpLNPAmqULiPorgMOAgu",
+    "storageFileName": "demo_instagram_post.png",
+    "note": "Demo Instagram post (1080x1350 PNG) ban gaya: dark glassmorphism design, 'AI TOOLS / Level Up Your Workflow', Assamese line 'AI সঁজুলিৰে সৃষ্টি কৰা', uploaded to Storage by Iswar.",
+    "finishedAtMs": 1790958084502
+  },
+  "reworkCount": 0
+}

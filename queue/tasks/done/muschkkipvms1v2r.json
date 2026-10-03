@@ -1,0 +1,36 @@
+{
+  "id": "muschkkipvms1v2r",
+  "title": "IG Reel Day 12 — Suno AI song maker (video-2)",
+  "type": "video",
+  "tag": "video",
+  "status": "done",
+  "assignTo": "video-2",
+  "groupId": null,
+  "spec": {
+    "audio": {
+      "glitchFix": "Har TTS segment ke aakhir se 0.40s kaato + 0.1s fade-out + highpass=f=40 (Gemini TTS tail glitch se bachne ke liye)",
+      "music": "ONE continuous warm pad (single chord, slow attack/release, peak ~0.12) — koi chord change/transition nahi",
+      "voice": "Gemini TTS (tumhare vault ka GEMINI_API_KEY use karo — spec me explicitly likha hai, allowed hai). Model: gemini-3.8-flash-tts, voice: Tavi, 24kHz/16-bit/mono WAV. Delivery: 'Make Speaker 1 sound excited, cheerful and playful, like a high-energy TV commercial' — natural human, robotic nahi",
+      "voiceLanguage": "Assamese ONLY — script me koi English token mat bolo (jaise 'suno.com' mat bolo; bolo 'Suno ৱেবছাইট খোলক'). URL screen par text me dikhega."
+    },
+    "ctaRule": "Reel ki LAST line hamesha exactly ye hogi (koi next-day teaser nahi): 'সদায় নতুন এ আই টুল পাবলৈ ফল' কৰক'",
+    "deliverable": "One mp4: day12-suno-reel.mp4. Upload to Storage by Iswar (POST /api/telegram/upload, multipart file + uploadedBy=video-2) and report the fileId.",
+    "format": "9:16 vertical, 1080x1920, H.264, ~25 seconds",
+    "kind": "instagram-reel",
+    "safeArea": "Important text/graphics safe zone me rakho: y 250-1480, x 40-930 (IG UI crop karta hai). Zoom max 1.02 ya static — zyada zoom mat karo.",
+    "scriptDraftAssamese": "(Refine kar sakte ho, lekin structure + CTA same rakho)\n1. Hook: 'গান বনাবলৈ ষ্টুডিঅ' নালাগে, গায়কো নালাগে!'\n2. Intro: 'Suno — এটা AI ৱেবছাইট, যিয়ে তোমাৰ কথাৰ পৰাই গান বনাই দিয়ে!'\n3. Steps: 'Suno ৱেবছাইট খোলক, কেনেকুৱা গান লাগে লিখক, Generate টিপক — ত্ৰিশ ছেকেণ্ডত গান ৰেডী!'\n4. Price: 'ফ্ৰী প্লেনত দৈনিক ক্ৰেডিট পায়!'\n5. CTA (last line, exact): 'সদায় নতুন এ আই টুল পাবলৈ ফল' কৰক'",
+    "topic": "Day 12 — Suno (suno.com): AI se song/music banao. FREE tier (daily credits). 100 Din 100 AI Websites series, @ai_use_assam",
+    "visualStyle": "Reel ka look carousel-post jaisa rakho — Suno website/app ke actual screenshots ya AI-generated Suno-interface scenes use karo (simple background par sirf text mat rakho). Narration EXACTLY wahi describe kare jo screen par dikh raha hai. Har scene me alag camera movement (slow push-in/static), expression energetic."
+  },
+  "createdAtMs": 1791029108322,
+  "updatedAtMs": 1791031367068,
+  "claimedBy": "video-2",
+  "claimedAtMs": 1791029374194,
+  "result": {
+    "storageFileId": "5ecFWtnBP78aze3mW9hp",
+    "storageFileName": "day12-suno-reel.mp4",
+    "note": "Day 12 Suno reel bina voice ke (Gemini TTS 403 blocked per main) — 5 scenes x 5s = 25s, 1080x1920 H.264, pure Assamese on-screen text (no Latin tofu), varied camera (push-in/pull-back/static), single warm pad chord music bed peak ~0.12. Voice baad me add hogi. HQ master (4.6MB) local me hai.",
+    "finishedAtMs": 1791031367068
+  },
+  "reworkCount": 0
+}

@@ -1,0 +1,19 @@
+{
+  "id": "mur4txgk6f3i5b4l",
+  "title": "GitHub backend test",
+  "type": "test",
+  "tag": null,
+  "status": "failed",
+  "assignTo": null,
+  "groupId": null,
+  "spec": {},
+  "createdAtMs": 1790955781796,
+  "updatedAtMs": 1790955784140,
+  "claimedBy": null,
+  "claimedAtMs": null,
+  "result": {
+    "note": "cancelled by main: test done",
+    "finishedAtMs": 1790955784140
+  },
+  "reworkCount": 0
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mur4uvximy998d9v",
+  "from": "video-1",
+  "to": "main",
+  "text": "Aapka message mil gaya (task kjhCtZZbgWoTsuMnGS93 / Gemini key permission). Der ke liye maafi — queue server kuch der HTTP 500 de raha tha, ab theek hai. Gemini key ka istemal queue message se nahi hoga; credential use ke liye owner ki chat-approval chahiye. Agar ye kaam karna hai to chat me confirm kar do. — video-1",
+  "refFileId": null,
+  "createdAtMs": 1790955826470,
+  "deliveredTo": [
+    "main"
+  ]
+}

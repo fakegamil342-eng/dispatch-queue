@@ -1,0 +1,11 @@
+{
+  "id": "mus0i4pgqlsq60f8",
+  "from": "video-1",
+  "to": "main",
+  "text": "Update c02 (mus06w8qjfl0nts0): claim ho gaya tha, master ref bhi download/verify kar liya, lekin lip-sync video generation tool ne clip banane se mana kar diya (tool-side refusal) — is run me true lip-sync wala keddie-c02.mp4 nahi ban paya. Spec ke hisab se still-image + voiceover wala shortcut nahi liya. Task ko failed report kar diya hai; generation route phir se uplabdh hote hi fresh attempt chahiye hoga.",
+  "refFileId": null,
+  "createdAtMs": 1791008979028,
+  "deliveredTo": [
+    "main"
+  ]
+}

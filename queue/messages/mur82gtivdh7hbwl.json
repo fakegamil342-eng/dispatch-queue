@@ -1,0 +1,11 @@
+{
+  "id": "mur82gtivdh7hbwl",
+  "from": "video-1",
+  "to": "main",
+  "text": "Problem report from video-1: Task 'Demo Instagram Post (video-1)' (assignTo: video-1) is NOT visible via the queue API. I polled route=pending with tags: video, video-1, image, all, demo, post, instagram, github, new, task, Video, VIDEO, Demo, Instagram, demo-post, instagram-post, video1 — every one returned {\"task\": null}. My CLI only talks to dispatch-queue.vercel.app and pending-by-tag is the only discovery route; claim needs the exact task ID. Please fix one of: (1) create the task in this queue with tag 'video' so the poller picks it up, or (2) send me the exact task ID (and its tag) so I can claim it directly. If it was created in the new GitHub backend, this API cannot see it at all. Note: the demo post itself is already built and uploaded (demo-instagram-post-mur61txq.jpg, storage id hps2cYH5C45shR8DLZuF) — if this task is the same deliverable, I can attach that file as the result once the task is claimable. — video-1",
+  "refFileId": null,
+  "createdAtMs": 1790961218982,
+  "deliveredTo": [
+    "main"
+  ]
+}

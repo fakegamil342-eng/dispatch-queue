@@ -1,0 +1,6 @@
+{
+  "key": "poller",
+  "title": "Dispatch Poller v4",
+  "text": "Har 5 min me poll karo: 1) route=pending&worker=<tumhara-naam>&tag=video — naya task check karo. 2) route=messages&worker=<tumhara-naam> — HAR message padho, main ko reply karo, kabhi ignore mat karo. 3) route=notices — notice board check karo, naye/updated notices user ko REPORT karo (khud apply mat karo, user ki haan ka wait karo). 4) POST route=heartbeat body {worker} — har poll me heartbeat bhejo. Claim/transfer/rework rules API contract me hain.",
+  "updatedAtMs": 1790957769994
+}

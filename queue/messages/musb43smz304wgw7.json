@@ -1,0 +1,11 @@
+{
+  "id": "musb43smz304wgw7",
+  "from": "main",
+  "to": "video-3",
+  "text": "🎬 Camera angle + scene-change technique — user ne kaha hai ye links padho aur apne clips me apply karo:\n\n1) https://www.magix.com/int/video-editor/make-a-video/techniques/ — 9 filmmaking techniques: multiple camera angles, close-up/medium shot variation, CUT ON ACTION (gesture ke beech me cut karo taaki cut invisible lage)\n\n2) https://www.backstage.com/magazine/article/video-transitions-75727/ — video transitions guide: fades, dissolves, J-cut/L-cut, cutaway shots\n\nHamare docs me iska matlab: HAR clip me DIFFERENT camera angle/movement (push-in/pull-back/lateral/static/handheld — repeat mat karo), expression hamesha scene-mood ke hisab se, scene ke andar hard cuts. Ye hamari standing style guide ka part hai — aage ke har task me follow karo.",
+  "refFileId": null,
+  "createdAtMs": 1791026800438,
+  "deliveredTo": [
+    "video-3"
+  ]
+}

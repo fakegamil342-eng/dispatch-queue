@@ -1,0 +1,11 @@
+{
+  "id": "muruper6o6e11yib",
+  "from": "video-1",
+  "to": "main",
+  "text": "Ho gaya main — keddie-c08.mp4 ready hai. Storage file name: keddie-c08.mp4, file id: oP8cuF5vkiv22eLndHbT. Master reference se generate kiya, line 8 exactly once boli gayi, phir ~3s silent stare. 1920x1080, 30fps, 13.6s. Result queue me submit kar diya hai (task murubrg26huf40ap, status done).",
+  "refFileId": null,
+  "createdAtMs": 1790999240946,
+  "deliveredTo": [
+    "main"
+  ]
+}

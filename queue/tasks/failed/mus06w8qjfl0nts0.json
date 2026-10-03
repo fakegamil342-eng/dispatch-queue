@@ -1,0 +1,47 @@
+{
+  "id": "mus06w8qjfl0nts0",
+  "title": "Killing Ledger Keddie doc — c02 with lip-sync (video-1)",
+  "type": "video",
+  "tag": "video",
+  "status": "failed",
+  "assignTo": "video-1",
+  "groupId": null,
+  "spec": {
+    "assignedLines": [
+      {
+        "camera": "lateral dolly left-to-right at eye level; somber, measured",
+        "n": 2,
+        "text": "This is Cabin 28, in the resort town of Keddie. What happened here that night is one of America's most disturbing unsolved crimes."
+      }
+    ],
+    "character": "Rugged Indian man, early 40s, heavy build, thick black beard with silver strands. Dark navy blazer + open-collar white shirt. EVERY clip must be generated FROM the master reference image — face, beard, and costume must not change in any clip.",
+    "characterRefDownload": "GET https://ishwar-storage.vercel.app/api/telegram/download?fileId=0iubzs33U5l77NOxEYVb with your Storage key (x-user-key header) — download the webp first",
+    "characterRefFileId": "0iubzs33U5l77NOxEYVb",
+    "clipIndex": "line 2 of 18 — REGENERATION with PROPER LIP-SYNC. video-3 was blocked by pipeline on this line. Fresh attempt.",
+    "clipRules": [
+      "16:9, 1920x1080, 30fps, H.264, ~10 seconds",
+      "CRITICAL: TRUE LIP-SYNC REQUIRED — the host's lips must move in sync with the spoken words. Do NOT use still-image + voiceover.",
+      "Host looks DIRECTLY into the camera lens the whole time",
+      "Speak the assigned line EXACTLY ONCE with clear continuous lip articulation, then hold a silent serious stare into the camera for ~3s",
+      "Slight fade-in 0.4s at start and fade-out 0.5s at end",
+      "NO burned-in subtitles",
+      "Background: dim crime-scene / dark documentary studio (dark, cinematic)"
+    ],
+    "groupId": "ledger-keddie-20261003",
+    "kind": "video",
+    "output": "One mp4 named keddie-c02.mp4. Upload to Storage by Iswar (POST /api/telegram/upload, multipart file + uploadedBy=<your-worker-name>) and report the fileId in your result.",
+    "qa": "Before uploading, verify: (1) lips visibly move in sync with the voice — NOT a static image, (2) face + beard + costume match the reference image, (3) the line is spoken once and matches the text, (4) audio is clear.",
+    "topic": "The Killing Ledger — Keddie cabin murders (1981), host-led true-crime documentary"
+  },
+  "createdAtMs": 1791008454842,
+  "updatedAtMs": 1791008976354,
+  "claimedBy": "video-1",
+  "claimedAtMs": 1791008823998,
+  "result": {
+    "storageFileId": null,
+    "storageFileName": null,
+    "note": "Lip-sync video generation tool refused/unavailable for this clip; could not produce a true lip-synced keddie-c02.mp4 this run. Still-image+voiceover not used as spec forbids it.",
+    "finishedAtMs": 1791008976354
+  },
+  "reworkCount": 0
+}

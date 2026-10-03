@@ -1,0 +1,72 @@
+{
+  "id": "murownx83e4wttqu",
+  "title": "Killing Ledger Keddie doc — clips 7-12 (video-3, batch 2)",
+  "type": "video",
+  "tag": "video",
+  "status": "done",
+  "assignTo": "video-3",
+  "groupId": "ledger-keddie-20261003",
+  "spec": {
+    "kind": "video",
+    "topic": "The Killing Ledger — Keddie cabin murders (1981), host-led true-crime documentary",
+    "groupId": "ledger-keddie-20261003",
+    "clipIndex": "lines 7-12 of 18 (re-dispatched; clips 13,14,16,17,18 already done by you)",
+    "assignedLines": [
+      {
+        "n": 7,
+        "text": "Shortly after eight the next morning, Sheila walked home to change for church. What she found sent her screaming from the cabin.",
+        "camera": "close push-in, host centered; rising dread"
+      },
+      {
+        "n": 8,
+        "text": "Her mother lay dead on the living room floor. Beside her — her brother John, and his friend Dana. All three bound and broken.",
+        "camera": "arc move left around host, ending front-center; raw grief, controlled"
+      },
+      {
+        "n": 9,
+        "text": "The walls were splattered with blood. But in the back bedroom, three little boys — Rick, Greg, and their friend Justin — slept on. Unharmed.",
+        "camera": "slight high-angle tilt-down to eye level; disbelief, horror"
+      },
+      {
+        "n": 10,
+        "text": "They had heard nothing. Seen nothing. Three children, asleep feet from a massacre — and untouched.",
+        "camera": "push from soft blur to sharp medium shot; stunned, hollow"
+      },
+      {
+        "n": 11,
+        "text": "One person was missing. Twelve-year-old Tina Sharp was nowhere in the cabin. Not alive. Not dead. Just — gone.",
+        "camera": "lateral dolly right-to-left, close framing; chilling, low voice"
+      },
+      {
+        "n": 12,
+        "text": "The killers had brought their own tools — knives, a hammer — and stayed for hours. This was no burglary. This was personal.",
+        "camera": "static close-up, then subtle forward-lean drift; hard anger beneath control"
+      }
+    ],
+    "characterRefFileId": "0iubzs33U5l77NOxEYVb",
+    "characterRefDownload": "GET https://ishwar-storage.vercel.app/api/telegram/download?fileId=0iubzs33U5l77NOxEYVb with your Storage key (x-user-key header) — download the webp first (re-download it, same file as before)",
+    "character": "Rugged Indian man, early 40s, heavy build, thick black beard with silver strands. Dark navy blazer + open-collar white shirt. EVERY clip must be generated FROM the master reference image — face, beard, and costume must not change in any clip.",
+    "clipRules": [
+      "16:9, 1920x1080, 30fps, H.264, ~10 seconds per clip",
+      "Host looks DIRECTLY into the camera lens the whole time, regardless of camera angle",
+      "Speak the assigned line EXACTLY ONCE with clear continuous lip articulation, then hold a silent serious stare into the camera for ~3s — expressions match the mood note on each line (never smile on dark beats)",
+      "Use the per-line camera movement listed with each line; never use the same movement twice in a row",
+      "Slight fade-in 0.4s at start and fade-out 0.5s at end of each clip",
+      "NO burned-in subtitles",
+      "Background: dim crime-scene / dark documentary studio fitting the line (dark, cinematic); keep backgrounds consistent in tone across your clips"
+    ],
+    "output": "One mp4 per line, named keddie-cNN.mp4 (e.g. keddie-c07.mp4). Upload EACH clip to Storage by Iswar (POST /api/telegram/upload, multipart file + uploadedBy=video-3) and report every fileId in your result.",
+    "qa": "Before uploading, verify each clip: face + beard + costume match the reference image; the line is spoken once and matches the text; audio is clear; if voice is heard, lips must be moving."
+  },
+  "createdAtMs": 1790989501724,
+  "updatedAtMs": 1790991366080,
+  "claimedBy": "video-3",
+  "claimedAtMs": 1790990459816,
+  "result": {
+    "storageFileId": "613Lj628EfasRSMaPPNC",
+    "storageFileName": "keddie-c07.mp4",
+    "note": "Keddie batch2: 4/6 clips done+verified (1080p30, character-matched) on Storage by Iswar — c07=613Lj628EfasRSMaPPNC, c09=xADUTdo3Tljmd1vrgMkX, c11=3bZ80oAv6cAbovDysrG7, c12=CQ1g0TuSERnqLdHYUGDX. c08 failed: video backend HTTP 500 (no retry allowed). c10 failed: generation safety denial (no retry allowed). Re-dispatch c08 and c10.",
+    "finishedAtMs": 1790991366080
+  },
+  "reworkCount": 0
+}

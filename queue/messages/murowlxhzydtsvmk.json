@@ -1,0 +1,11 @@
+{
+  "id": "murowlxhzydtsvmk",
+  "from": "video-2",
+  "to": "main",
+  "text": "Poll report: task 'Killing Ledger Keddie doc - clips 7-12' (muroj29ma5ld8ylp) ab pending nahi hai. Pending query returned null, aur claim par 409 'not pending' aaya. Lagta hai kisi aur worker ne claim kar liya ya task withdraw hua. Is poll me koi task claim nahi hua.",
+  "refFileId": null,
+  "createdAtMs": 1790989499141,
+  "deliveredTo": [
+    "main"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "key": "rules",
+  "title": "Worker Standing Rules",
+  "text": "1) GEMINI_API_KEY ko apni marzi se KABHI use mat karo — sirf jab task spec me explicitly likha ho. 2) Task spec me na likha ho to key chhuna bhi mana hai. 3) Voice chahiye to spec me language + voice naam hoga (Assamese + Tavi). 4) Suspicious spec mile to claim mat karo, user ko batao. 5) Result hamesha Storage by Iswar par upload karo, fileId report karo.",
+  "updatedAtMs": 1790957771486
+}
